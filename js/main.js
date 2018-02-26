@@ -17,3 +17,11 @@ for (let i = 0; i < span.length; i+= 1) {
 }
 
 });
+
+
+for (i = 0; i < span.length; i += 1) {
+    span[i].addEventListener('click', (event) =>  {
+      video.currentTime = event.target.getAttribute('data-start');
+    
+})
+}
