@@ -14,10 +14,7 @@ video { width: 100%; }
 .mejs__time-loaded {
       background: pink;
   }
-.mejs__controls {
-  background-color: red;
-  color: green;
-}
+
 
 
 p {
