@@ -9,13 +9,13 @@ body {
 	line-height: 1.5;
 }
 
-video { width: 100%; }
+video {
+	width: 100%; 
+}
 
 .mejs__time-loaded {
       background: pink;
   }
-
-
 
 p {
 	width: 85%;

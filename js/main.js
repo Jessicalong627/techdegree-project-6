@@ -13,15 +13,13 @@ for (let i = 0; i < span.length; i+= 1) {
   {
     span[i].style.color="#000000";
   }
-
-}
+ }
 
 });
-
 
 for (i = 0; i < span.length; i += 1) {
     span[i].addEventListener('click', (event) =>  {
       video.currentTime = event.target.getAttribute('data-start');
-    
+
 })
 }
